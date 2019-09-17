@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(150, 250, 217);
+    text-align: center;
+    color:rgb(189, 189, 189);
+}
+
+.counter{
+    margin: 250px;
+}
+
+a{
+  font-size: 30px;
+  margin: 130px;
+  padding:10px;
+  border: solid white 3px;
+
+  &:link{
+    color:white;
+  }
+
+  &:hover{
+    color: pink;
+  }
+
+  .up{
+    color: red;
+  }
+
+  .down{
+    color: blue;
+  }
+}
+
+span{
+    font-size: 50px;
+}
