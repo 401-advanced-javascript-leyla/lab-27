@@ -2,6 +2,10 @@ import React from 'react';
 
 import './counter.scss';
 
+/**
+ * A component for incrementing / decrementing a number
+ */
+
 class Counter extends React.Component {
   constructor(props) {
     super(props);
